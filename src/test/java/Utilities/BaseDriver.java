@@ -17,7 +17,8 @@ public class BaseDriver {
         if (driver == null) {
 
             Logger.getLogger("").setLevel(Level.SEVERE);
-            System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
+            System.setProperty("org.slf4j.simpleLogger.defaultLogLevel", "error");
+//            System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "Error");
             System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
 

@@ -1,8 +1,8 @@
 package Pages;
 
 import Utilities.BaseDriver;
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import io.cucumber.java.eo.Se;
+//import javax.xml.*;
+//import io.cucumber.*;
 import junit.framework.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;

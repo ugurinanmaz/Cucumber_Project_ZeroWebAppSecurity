@@ -19,6 +19,6 @@ Feature:  Transfer Funds Functionality Test
     Examples:
       | FromAccountValue | ToAccountValue | Amount |
       | 2                | 2              | 1000   |
-#      | 2                | 2              | 2100   |
-#      | 3                | 3              | 3200   |
-#      | 4                | 4              | 2400   |
+      | 2                | 2              | 2100   |
+      | 3                | 3              | 3200   |
+      | 4                | 4              | 2400   |
